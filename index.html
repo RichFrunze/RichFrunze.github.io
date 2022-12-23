@@ -5,8 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя первая страничка в интернете</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        .glavn {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .zagolovok {
+            display: flex;
+            height: 10%;
+            background-color: cyan;
+
+        }
+        .bigcontent {
+            display: flex;
+            height: 90%;
+            
+        }
+        .smallcontentleft {
+            display: flex;
+            flex-direction: column;
+            background-color: brown;
+            height: 100%;
+            flex-grow: 1;
+        }
+        .classright {
+            background-color: chartreuse;
+            display: flex;
+            flex-grow: 1;
+        }
+
+    </style>
 </head>
 <body>
-   <H1> Привет! добро пожаловать.</H1> 
+
+<div class="glavn">
+    <div class="zagolovok"> 
+        <H1> Привет! добро пожаловать в мой город ссылок.</H1> 
+    </div>
+    <div class="bigcontent">
+        <div class="smallcontentleft">
+            <a href="fgbh.html">таблица</a>
+            <a href="index1.html">lorem</a>
+            <a href="index12.html"> сайт</a>
+            <a href="index2.html">дизайн вывески kidkod</a>
+            <a href="index3.html">цветные ступени</a>
+            <a href="index4.html"> таблица флексов</a>
+            <a href="index5.html"> таблица цвета</a>
+            <a href="index6.html"> веб компонент</a>
+        </div>
+        <div class="classright">
+            <div class="story">
+                <p>Это рассказ</p>
+            </div>
+            <div class="photo">
+                <img src="pic3.jpg" width="500" height="250">
+            </div>
+            <div class="poiskovaya">
+                <form action="https://www.google.com/search" method="get">
+                    <input type="text" name="q">
+                    <input type="submit" value="искать">
+                 </form>   
+            </div>
+        </div>
+    </div>
+
+</div>
 </body> 
 </html>
