@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   .container{
+     display: flex;
+     height: 100vh;
+   } 
+   .aside{
+    flex-basis: 20%;
+    background-color: aqua;
+   } 
+   .header{
+    flex-basis: 20%;
+    background-color: coral;
+   }  
+   .section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }  
+   .content 
+   {  display: flex;
+    width: 100%;
+    flex-grow: 1;
+    }
+   .blue{ 
+    background-color: blueviolet;
+    flex-basis: 50%;
+   }
+   
+   .green{
+    background-color: fuchsia;
+    flex-basis: 50%;
+   }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="aside">
+        <h1>menu</h1>
+    </div>
+    <div class="section">
+        <div class="header"></div>
+        <div class="content">
+            <div class="blue"></div>
+            <div class="green"></div>
+        </div>
+    </div>
+</div>   
+</body>
+</html>
