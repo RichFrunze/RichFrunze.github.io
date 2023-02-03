@@ -8,6 +8,7 @@
     <style>
         body {
             margin: 0px;
+            overflow:hidden ;
         }
         .glavn {
             display: flex;
@@ -31,13 +32,40 @@
             background-color: brown;
             height: 100%;
             flex-grow: 1;
+            flex-basis: 30%;
+            align-items: center;
+            justify-content: space-evenly;
         }
         .classright {
             background-color: chartreuse;
             display: flex;
             flex-grow: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-basis: 70%;
+            /* align-items: center; */
         }
+        .photo {
+            align-self: center;
+        }
+        
+        .poiskovaya {
+            margin-bottom: 2em;
+            margin-left: 21em;
+       }
 
+       .smallcontentleft>a {
+            color: white;
+            font-size: 1.7em;
+            text-decoration: none;
+            font-weight: 900;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            transition: all 0.3s ease-in;
+       }
+       .smallcontentleft>a:hover {
+            /* transform: translate(-5px, -5px); */
+            transform: rotate(360deg);
+       }
     </style>
 </head>
 <body>
@@ -59,7 +87,7 @@
         </div>
         <div class="classright">
             <div class="story">
-                <p>Это рассказ</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestiae nihil sequi dignissimos quae tenetur ducimus consequatur et laudantium modi, quibusdam blanditiis doloribus sunt cupiditate dolor exercitationem laborum illum! Incidunt officia, quisquam vel aperiam harum officiis impedit vitae dicta facilis. Non architecto enim quos voluptas! Quam dolorem officiis sed tempora!</p>
             </div>
             <div class="photo">
                 <img src="pic3.jpg" width="500" height="250">
